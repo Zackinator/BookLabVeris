@@ -3,19 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96C2BF149D2EDE9294F16F40 /* Pods_bookLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E047605105FF522B53B2F /* Pods_bookLab.framework */; };
 		D250130426E1344D006B0293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250130326E1344D006B0293 /* AppDelegate.swift */; };
 		D250130626E1344D006B0293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250130526E1344D006B0293 /* SceneDelegate.swift */; };
 		D250130826E1344D006B0293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250130726E1344D006B0293 /* ViewController.swift */; };
 		D250130B26E1344D006B0293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D250130926E1344D006B0293 /* Main.storyboard */; };
 		D250130D26E1344E006B0293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D250130C26E1344E006B0293 /* Assets.xcassets */; };
 		D250131026E1344E006B0293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D250130E26E1344E006B0293 /* LaunchScreen.storyboard */; };
+		D250131826E134CC006B0293 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250131726E134CC006B0293 /* SignupViewController.swift */; };
+		D250131A26E134DF006B0293 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250131926E134DF006B0293 /* LoginViewController.swift */; };
+		D250131C26E134F0006B0293 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250131B26E134F0006B0293 /* HomeViewController.swift */; };
+		D250131F26E3B3B8006B0293 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D250131E26E3B3B8006B0293 /* GoogleService-Info.plist */; };
+		D250132326E3C99E006B0293 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250132226E3C99E006B0293 /* helper.swift */; };
+		D250132626E50DF0006B0293 /* staticC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250132526E50DF0006B0293 /* staticC.swift */; };
+		D299C84E27067526005BFA86 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299C84D27067526005BFA86 /* DetailsViewController.swift */; };
+		D299C850270C95FA005BFA86 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299C84F270C95FA005BFA86 /* UserDetailViewController.swift */; };
+		D2D63190270F26F000FC7F5A /* AdminBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6318F270F26F000FC7F5A /* AdminBookViewController.swift */; };
+		D2D63192270F29C400FC7F5A /* booked.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D63191270F29C400FC7F5A /* booked.swift */; };
+		D2D63194270F363700FC7F5A /* UserBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D63193270F363700FC7F5A /* UserBookViewController.swift */; };
+		D2D631962715DB1200FC7F5A /* AllBookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631952715DB1200FC7F5A /* AllBookingsViewController.swift */; };
+		D2D63198271621DA00FC7F5A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D63197271621DA00FC7F5A /* HistoryViewController.swift */; };
+		D2D6319A2716228C00FC7F5A /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631992716228C00FC7F5A /* history.swift */; };
+		D2D6319C27175C4000FC7F5A /* DetailAdminBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6319B27175C4000FC7F5A /* DetailAdminBookViewController.swift */; };
+		D2D6319E27175C5800FC7F5A /* DetailAllBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6319D27175C5800FC7F5A /* DetailAllBookViewController.swift */; };
+		D2D631A027175FD700FC7F5A /* DetailUserBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6319F27175FD700FC7F5A /* DetailUserBookViewController.swift */; };
+		D2D631A22718AE4B00FC7F5A /* active.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631A12718AE4A00FC7F5A /* active.swift */; };
+		D2D631A42718AFED00FC7F5A /* AllActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631A32718AFED00FC7F5A /* AllActiveViewController.swift */; };
+		D2D631A62718B86F00FC7F5A /* DetailAllActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631A52718B86F00FC7F5A /* DetailAllActiveViewController.swift */; };
+		D2D631A82718C44000FC7F5A /* AdminActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631A72718C44000FC7F5A /* AdminActiveViewController.swift */; };
+		D2D631AA2718C68300FC7F5A /* DetailAdminActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631A92718C68300FC7F5A /* DetailAdminActiveViewController.swift */; };
+		D2D631AC271B43EC00FC7F5A /* UserActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631AB271B43EC00FC7F5A /* UserActiveViewController.swift */; };
+		D2D631AE271B757100FC7F5A /* DetailUserActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631AD271B757100FC7F5A /* DetailUserActiveViewController.swift */; };
+		D2D631B0271CCF5E00FC7F5A /* DetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D631AF271CCF5E00FC7F5A /* DetailHistoryViewController.swift */; };
+		D2D631B2271CD84A00FC7F5A /* Skärmavbild 2021-10-18 kl. 00.14.29.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D631B1271CD84A00FC7F5A /* Skärmavbild 2021-10-18 kl. 00.14.29.png */; };
+		D2FA548F26F13EB6009E8DD2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA548E26F13EB6009E8DD2 /* MenuViewController.swift */; };
+		D2FA549126F13F83009E8DD2 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA549026F13F83009E8DD2 /* AdminViewController.swift */; };
+		D2FA549526F4C922009E8DD2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA549426F4C922009E8DD2 /* AddViewController.swift */; };
+		D2FA549726F4D10D009E8DD2 /* AdminMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA549626F4D10D009E8DD2 /* AdminMenuViewController.swift */; };
+		D2FA549F2701D627009E8DD2 /* items.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA549E2701D627009E8DD2 /* items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0E047605105FF522B53B2F /* Pods_bookLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364ECE21BA674AF430603346 /* Pods-bookLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookLab.debug.xcconfig"; path = "Target Support Files/Pods-bookLab/Pods-bookLab.debug.xcconfig"; sourceTree = "<group>"; };
 		D250130026E1344D006B0293 /* bookLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D250130326E1344D006B0293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D250130526E1344D006B0293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +58,38 @@
 		D250130C26E1344E006B0293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D250130F26E1344E006B0293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D250131126E1344E006B0293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D250131726E134CC006B0293 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D250131926E134DF006B0293 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D250131B26E134F0006B0293 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D250131E26E3B3B8006B0293 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D250132226E3C99E006B0293 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		D250132526E50DF0006B0293 /* staticC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staticC.swift; sourceTree = "<group>"; };
+		D299C84D27067526005BFA86 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D299C84F270C95FA005BFA86 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		D2D6318F270F26F000FC7F5A /* AdminBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBookViewController.swift; sourceTree = "<group>"; };
+		D2D63191270F29C400FC7F5A /* booked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booked.swift; sourceTree = "<group>"; };
+		D2D63193270F363700FC7F5A /* UserBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBookViewController.swift; sourceTree = "<group>"; };
+		D2D631952715DB1200FC7F5A /* AllBookingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBookingsViewController.swift; sourceTree = "<group>"; };
+		D2D63197271621DA00FC7F5A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D2D631992716228C00FC7F5A /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
+		D2D6319B27175C4000FC7F5A /* DetailAdminBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdminBookViewController.swift; sourceTree = "<group>"; };
+		D2D6319D27175C5800FC7F5A /* DetailAllBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAllBookViewController.swift; sourceTree = "<group>"; };
+		D2D6319F27175FD700FC7F5A /* DetailUserBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserBookViewController.swift; sourceTree = "<group>"; };
+		D2D631A12718AE4A00FC7F5A /* active.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = active.swift; sourceTree = "<group>"; };
+		D2D631A32718AFED00FC7F5A /* AllActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631A52718B86F00FC7F5A /* DetailAllActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAllActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631A72718C44000FC7F5A /* AdminActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631A92718C68300FC7F5A /* DetailAdminActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdminActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631AB271B43EC00FC7F5A /* UserActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631AD271B757100FC7F5A /* DetailUserActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserActiveViewController.swift; sourceTree = "<group>"; };
+		D2D631AF271CCF5E00FC7F5A /* DetailHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHistoryViewController.swift; sourceTree = "<group>"; };
+		D2D631B1271CD84A00FC7F5A /* Skärmavbild 2021-10-18 kl. 00.14.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skärmavbild 2021-10-18 kl. 00.14.29.png"; sourceTree = "<group>"; };
+		D2FA548E26F13EB6009E8DD2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D2FA549026F13F83009E8DD2 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		D2FA549426F4C922009E8DD2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		D2FA549626F4D10D009E8DD2 /* AdminMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMenuViewController.swift; sourceTree = "<group>"; };
+		D2FA549E2701D627009E8DD2 /* items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = items.swift; sourceTree = "<group>"; };
+		E19D357F3868245CBD52579F /* Pods-bookLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookLab.release.xcconfig"; path = "Target Support Files/Pods-bookLab/Pods-bookLab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +97,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C2BF149D2EDE9294F16F40 /* Pods_bookLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66189A1A344B70F887F4C069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C0E047605105FF522B53B2F /* Pods_bookLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21374942750F7DE00EFC514 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				D2FA549626F4D10D009E8DD2 /* AdminMenuViewController.swift */,
+				D2FA549026F13F83009E8DD2 /* AdminViewController.swift */,
+				D2D6318F270F26F000FC7F5A /* AdminBookViewController.swift */,
+				D2D6319B27175C4000FC7F5A /* DetailAdminBookViewController.swift */,
+				D2D631A72718C44000FC7F5A /* AdminActiveViewController.swift */,
+				D2D631A92718C68300FC7F5A /* DetailAdminActiveViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		D21374962750F80200EFC514 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D2D631AB271B43EC00FC7F5A /* UserActiveViewController.swift */,
+				D2D63193270F363700FC7F5A /* UserBookViewController.swift */,
+				D299C84F270C95FA005BFA86 /* UserDetailViewController.swift */,
+				D2D6319F27175FD700FC7F5A /* DetailUserBookViewController.swift */,
+				D2D631AD271B757100FC7F5A /* DetailUserActiveViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D21374982750F96200EFC514 /* Login&Signup */ = {
+			isa = PBXGroup;
+			children = (
+				D250131726E134CC006B0293 /* SignupViewController.swift */,
+				D250131926E134DF006B0293 /* LoginViewController.swift */,
+			);
+			path = "Login&Signup";
+			sourceTree = "<group>";
+		};
+		D21374992750F9D100EFC514 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D2FA548E26F13EB6009E8DD2 /* MenuViewController.swift */,
+				D250130726E1344D006B0293 /* ViewController.swift */,
+				D250131B26E134F0006B0293 /* HomeViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		D213749A2750F9FE00EFC514 /* DetailEquipment */ = {
+			isa = PBXGroup;
+			children = (
+				D299C84D27067526005BFA86 /* DetailsViewController.swift */,
+				D2D6319D27175C5800FC7F5A /* DetailAllBookViewController.swift */,
+				D2D631A52718B86F00FC7F5A /* DetailAllActiveViewController.swift */,
+				D2D631AF271CCF5E00FC7F5A /* DetailHistoryViewController.swift */,
+			);
+			path = DetailEquipment;
+			sourceTree = "<group>";
+		};
+		D213749B2750FA2000EFC514 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				D2FA549426F4C922009E8DD2 /* AddViewController.swift */,
+				D2D63197271621DA00FC7F5A /* HistoryViewController.swift */,
+				D2D631952715DB1200FC7F5A /* AllBookingsViewController.swift */,
+				D2D631A32718AFED00FC7F5A /* AllActiveViewController.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
 		D25012F726E1344D006B0293 = {
 			isa = PBXGroup;
 			children = (
 				D250130226E1344D006B0293 /* bookLab */,
 				D250130126E1344D006B0293 /* Products */,
+				FC7CA3A6759EC8BFFDCE8BF2 /* Pods */,
+				66189A1A344B70F887F4C069 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +199,61 @@
 		D250130226E1344D006B0293 /* bookLab */ = {
 			isa = PBXGroup;
 			children = (
-				D250130326E1344D006B0293 /* AppDelegate.swift */,
+				D250132726E51D95006B0293 /* pic */,
+				D250131D26E134F4006B0293 /* viewcontrollers */,
+				D250132426E50DDA006B0293 /* helpers */,
 				D250130526E1344D006B0293 /* SceneDelegate.swift */,
-				D250130726E1344D006B0293 /* ViewController.swift */,
 				D250130926E1344D006B0293 /* Main.storyboard */,
 				D250130C26E1344E006B0293 /* Assets.xcassets */,
 				D250130E26E1344E006B0293 /* LaunchScreen.storyboard */,
+				D250131E26E3B3B8006B0293 /* GoogleService-Info.plist */,
 				D250131126E1344E006B0293 /* Info.plist */,
 			);
 			path = bookLab;
+			sourceTree = "<group>";
+		};
+		D250131D26E134F4006B0293 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				D213749B2750FA2000EFC514 /* Equipment */,
+				D213749A2750F9FE00EFC514 /* DetailEquipment */,
+				D21374992750F9D100EFC514 /* General */,
+				D21374942750F7DE00EFC514 /* Admin */,
+				D21374962750F80200EFC514 /* User */,
+				D21374982750F96200EFC514 /* Login&Signup */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		D250132426E50DDA006B0293 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D631A12718AE4A00FC7F5A /* active.swift */,
+				D2D63191270F29C400FC7F5A /* booked.swift */,
+				D2FA549E2701D627009E8DD2 /* items.swift */,
+				D2D631992716228C00FC7F5A /* history.swift */,
+				D250130326E1344D006B0293 /* AppDelegate.swift */,
+				D250132226E3C99E006B0293 /* helper.swift */,
+				D250132526E50DF0006B0293 /* staticC.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		D250132726E51D95006B0293 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				D2D631B1271CD84A00FC7F5A /* Skärmavbild 2021-10-18 kl. 00.14.29.png */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		FC7CA3A6759EC8BFFDCE8BF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364ECE21BA674AF430603346 /* Pods-bookLab.debug.xcconfig */,
+				E19D357F3868245CBD52579F /* Pods-bookLab.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D250131426E1344E006B0293 /* Build configuration list for PBXNativeTarget "bookLab" */;
 			buildPhases = (
+				B8241656A8340E7C7F036BA6 /* [CP] Check Pods Manifest.lock */,
 				D25012FC26E1344D006B0293 /* Sources */,
 				D25012FD26E1344D006B0293 /* Frameworks */,
 				D25012FE26E1344D006B0293 /* Resources */,
+				300C3633DAA31383D5CB16EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D250131026E1344E006B0293 /* LaunchScreen.storyboard in Resources */,
+				D2D631B2271CD84A00FC7F5A /* Skärmavbild 2021-10-18 kl. 00.14.29.png in Resources */,
+				D250131F26E3B3B8006B0293 /* GoogleService-Info.plist in Resources */,
 				D250130D26E1344E006B0293 /* Assets.xcassets in Resources */,
 				D250130B26E1344D006B0293 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +325,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		300C3633DAA31383D5CB16EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bookLab/Pods-bookLab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bookLab/Pods-bookLab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bookLab/Pods-bookLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8241656A8340E7C7F036BA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bookLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D25012FC26E1344D006B0293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D631B0271CCF5E00FC7F5A /* DetailHistoryViewController.swift in Sources */,
+				D2D631962715DB1200FC7F5A /* AllBookingsViewController.swift in Sources */,
+				D2D6319A2716228C00FC7F5A /* history.swift in Sources */,
 				D250130826E1344D006B0293 /* ViewController.swift in Sources */,
+				D2FA549F2701D627009E8DD2 /* items.swift in Sources */,
+				D2D6319C27175C4000FC7F5A /* DetailAdminBookViewController.swift in Sources */,
+				D2D63198271621DA00FC7F5A /* HistoryViewController.swift in Sources */,
+				D2D63194270F363700FC7F5A /* UserBookViewController.swift in Sources */,
+				D2D631AC271B43EC00FC7F5A /* UserActiveViewController.swift in Sources */,
+				D2D6319E27175C5800FC7F5A /* DetailAllBookViewController.swift in Sources */,
+				D2FA548F26F13EB6009E8DD2 /* MenuViewController.swift in Sources */,
+				D2FA549526F4C922009E8DD2 /* AddViewController.swift in Sources */,
+				D2D631A82718C44000FC7F5A /* AdminActiveViewController.swift in Sources */,
+				D2D631A42718AFED00FC7F5A /* AllActiveViewController.swift in Sources */,
 				D250130426E1344D006B0293 /* AppDelegate.swift in Sources */,
+				D2D631AE271B757100FC7F5A /* DetailUserActiveViewController.swift in Sources */,
+				D250132326E3C99E006B0293 /* helper.swift in Sources */,
+				D2D631A22718AE4B00FC7F5A /* active.swift in Sources */,
+				D2FA549726F4D10D009E8DD2 /* AdminMenuViewController.swift in Sources */,
+				D250132626E50DF0006B0293 /* staticC.swift in Sources */,
+				D250131826E134CC006B0293 /* SignupViewController.swift in Sources */,
+				D250131A26E134DF006B0293 /* LoginViewController.swift in Sources */,
+				D2D631A62718B86F00FC7F5A /* DetailAllActiveViewController.swift in Sources */,
 				D250130626E1344D006B0293 /* SceneDelegate.swift in Sources */,
+				D2D63190270F26F000FC7F5A /* AdminBookViewController.swift in Sources */,
+				D2D631AA2718C68300FC7F5A /* DetailAdminActiveViewController.swift in Sources */,
+				D299C850270C95FA005BFA86 /* UserDetailViewController.swift in Sources */,
+				D299C84E27067526005BFA86 /* DetailsViewController.swift in Sources */,
+				D2FA549126F13F83009E8DD2 /* AdminViewController.swift in Sources */,
+				D2D631A027175FD700FC7F5A /* DetailUserBookViewController.swift in Sources */,
+				D2D63192270F29C400FC7F5A /* booked.swift in Sources */,
+				D250131C26E134F0006B0293 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +547,7 @@
 		};
 		D250131526E1344E006B0293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364ECE21BA674AF430603346 /* Pods-bookLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +566,7 @@
 		};
 		D250131626E1344E006B0293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19D357F3868245CBD52579F /* Pods-bookLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
