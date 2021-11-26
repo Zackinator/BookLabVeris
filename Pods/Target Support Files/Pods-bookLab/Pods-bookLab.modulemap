@@ -1,6 +1,0 @@
-framework module Pods_bookLab {
-  umbrella header "Pods-bookLab-umbrella.h"
-
-  export *
-  module * { export * }
-}
